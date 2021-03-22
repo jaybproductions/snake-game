@@ -1,0 +1,44 @@
+.board {
+  outline: 0px solid rgb(134, 154, 189);
+  width: 100%;
+  float: left;
+  margin: auto;
+  margin-left: 30%;
+}
+
+.row {
+  height: 35px;
+}
+
+.cell {
+  width: 35px;
+  height: 35px;
+  outline: 1px solid rgb(134, 154, 189);
+  display: inline-block;
+}
+
+.cell-green {
+  background-color: green;
+}
+
+.cell-red {
+  background-color: red;
+}
+
+.cell-purple {
+  background-color: purple;
+}
+
+.key {
+  width: 25%;
+  background-color: black;
+  padding: 10px;
+
+  margin-right: 20%;
+  float: right;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+}
